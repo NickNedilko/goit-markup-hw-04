@@ -93,6 +93,7 @@ img{
 }
 .header-contact {
     margin-left: auto;
+    align-items: center;
 }
 .page-header{
     border-bottom: 1px solid #ececec;
@@ -104,38 +105,62 @@ img{
 }    
 .menu-nav .link{
     display: block;
-    padding-top: 20px;
+    padding-top: 32px;
     padding-bottom: 32px;
 
     color: #212121;
     
 }
 .header-contact .link {
-    display: block;
-    padding-top: 20px;
+    display: inline-block;
+    padding-top: 32px;
     padding-bottom: 32px;
 
     color: var(--primiry-text-color)
 }
 /* Добавление иконок */
 .letter-icon::before{
+    display: inline-flex;
+    content:"";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url("../images/svg/envelope.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.tel-icon::before{
+    display: inline-flex;
     content: "";
-    max-width: 100px;
-    background-image: url(../images/svg/envelope.svg);
-    background-size: 100px;
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url("../images/svg/smartphone.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
     /* Стилизация основного контента страницы */
     /* Стилизация секции герой */
 
 .hero-section{
+    max-width: 1600px;
+    height: 600px;
+    margin-right: auto;
+    margin-left: auto;
     padding-top: 200px;
     padding-bottom: 200px;
     text-align: center;
-    background: #2F303A;
-    background-image: url(../images/bg-main.jpg);
-    background-repeat: no-repeat;
 
-   
+    background: #2F303A;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+            url("../images/bg-main.jpg");
      
 }    
 .hero-title{
@@ -205,6 +230,33 @@ img{
 .qualities-description{
     width: 270px;
     margin-left: 30px;
+}
+.qualities-description::before{
+    content: "";
+    display: block;
+    height: 120px;
+    margin-bottom: 30px;
+    padding: 25px 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+}
+.antena-icon::before{
+    background-image: url(../images/svg/antena.svg);
+    background-size: 70px 70px;
+}
+.clock-icon::before{
+    background-image: url(../images/svg/clock.svg);
+    background-size: 70px 70px;
+}
+.diagram-icon::before{
+    background-image: url(../images/svg/diagram.svg);
+    background-size: 70px 70px;
+}
+.astronavt-icon::before{
+    background-image: url(../images/svg/astronaut.svg);
+    background-size: 70px 70px;
 }
 
 .list-qualities-title{
