@@ -297,9 +297,8 @@ img{
 .team-section{
     padding-top: 94px;
     padding-bottom: 94px;
-    
-   
-}
+    background-color: #F5F4FA;
+}    
 .list-team-title{
     margin: 0px;
     margin-bottom: 10px;
@@ -320,19 +319,70 @@ img{
     margin-left: -30px;
 }
 .team-description{
-padding-top: 30px;
-padding-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 .team-item{
+    
     flex-basis: var((100%/4)-30px);
     margin-left: 30px;
-    border: 1px solid #eeeeee;
     border-bottom-left-radius: 4px;
     border-bottom-right-radius: 4px;
+
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
     box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 
     0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
 
 }
+.socials{
+    display: flex;
+    margin-top: 16px;
+   justify-content: center;
+}
+.social-link{
+    margin-right: 10px;
+    fill:#afb1b8 ;
+    
+}
+.social-link:last-child{
+    margin-right: 0px;
+}
+
+.social-link:hover{
+    fill: #188CE8;
+    background-color: #188CE8;
+    border-radius: 50%;
+}
+ /* Стилизация постоянные клиенты */
+ .clients{
+    padding-bottom: 94px;
+    padding-top: 94px;
+ }
+ .list-company{
+    margin-right: 30px;
+ }
+ .list-company:last-child{
+    margin-right: 0px;
+ }
+ .partners{
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+ }
+ .button-icon{
+    fill: #afb1b8;
+    display: block;
+    box-sizing: content-box;
+    padding: 16px 32px;
+    outline: 1px solid #AFB1B869;
+ }
+ .button-icon:hover{
+    fill: #2196f3;
+ }
+
+
 
               /* Стилизация футера */
 .footer{
