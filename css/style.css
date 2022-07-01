@@ -220,6 +220,9 @@ fill: currentColor;
 
     color:#FFFFFF;
     background: #188CE8;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.08),
+     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* стилизация секции наши качества */
 .qualites-section{
@@ -332,9 +335,10 @@ fill: currentColor;
 
     background-color: #ffffff;
     border: 1px solid #eeeeee;
-    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 
-    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
-
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+     0px 1px 1px rgba(0, 0, 0, 0.14), 
+     0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 /* Стилизация  и добавление иконок соц. сетей */
 .socials{
@@ -356,6 +360,7 @@ fill: currentColor;
     align-items: center;
     width: 44px;
     height: 44px;
+    
     fill: currentColor;
     border-radius: 50%;
 } 
@@ -526,6 +531,11 @@ fill: currentColor;
 .item-description {
     padding: 20px 24px;
 }
+.portfolio-item:hover{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
+     0px 4px 4px rgba(0, 0, 0, 0.06),
+      1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 .list-example-title{
     margin: 0px;
     margin-bottom: 4px;
@@ -550,4 +560,5 @@ fill: currentColor;
 .item:hover{
     color: #188CE8;
     fill: #188CE8;
+  
 }
