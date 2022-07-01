@@ -217,6 +217,7 @@ fill: currentColor;
 .button:hover, .button:focus{
     border-radius: 4px;
     border-color:transparent;
+    
 
     color:#FFFFFF;
     background: #188CE8;
@@ -360,7 +361,7 @@ fill: currentColor;
     align-items: center;
     width: 44px;
     height: 44px;
-    
+
     fill: currentColor;
     border-radius: 50%;
 } 
@@ -532,6 +533,7 @@ fill: currentColor;
     padding: 20px 24px;
 }
 .portfolio-item:hover{
+    cursor: pointer;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
      0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
