@@ -245,34 +245,20 @@ fill: currentColor;
 .qualities-description{
     width: 270px;
     margin-left: 30px;
+    
 }
-.qualities-description::before{
-    content: "";
-    display: block;
+.icon-feature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 270px;
     height: 120px;
     margin-bottom: 30px;
-    padding: 25px 100px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+
+    border-radius: 4px;
     background-color: #f5f4fa;
 }
-/* .antena-icon::before{
-    background-image: url(../images/svg/antena.svg);
-    background-size: 70px 70px;
-}
-.clock-icon::before{
-    background-image: url(../images/svg/clock.svg);
-    background-size: 70px 70px;
-}
-.diagram-icon::before{
-    background-image: url(../images/svg/diagram.svg);
-    background-size: 70px 70px;
-}
-.astronavt-icon::before{
-    background-image: url(../images/svg/astronaut.svg);
-    background-size: 70px 70px;
-} */
 
 .list-qualities-title{
     margin-top: 0px;
