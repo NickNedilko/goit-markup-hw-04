@@ -60,6 +60,8 @@ img {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    padding-top: 24px;
+    padding-bottom: 24px;
          
      color: #2196F3;
 }
@@ -109,8 +111,7 @@ img {
 }    
 .menu-nav .link{
     display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    
 
     color: #212121;
     
@@ -130,9 +131,8 @@ fill: currentColor;
 .icon-smartphone{
     margin-right: 10px;
 }
-.item:hover{
-    fill: #188CE8;
-}
+
+
 
 /* .letter-icon::before{
     display: inline-flex;
@@ -366,7 +366,7 @@ fill: currentColor;
     border-radius: 50%;
 } 
 
-.icon-link:hover{
+.icon-link:hover, .icon-link:focus{
     fill: #fff;
     background-color: #2196F3;
 }
@@ -389,15 +389,20 @@ fill: currentColor;
     margin: 0px;
     padding: 0px;
  }
+
+ /* Стилизация секции постояные клиенты */
+ 
  .button-icon{
     fill: #afb1b8;
     display: block;
     box-sizing: content-box;
     padding: 16px 32px;
     outline: 1px solid #AFB1B869;
+    border-radius: 4px;
  }
- .button-icon:hover{
+ .button-icon:hover, .button-icon:focus{
     fill: #2196f3;
+    outline:1px solid #2196F3;
  }
 
 
@@ -472,10 +477,9 @@ fill: currentColor;
     background-color: rgba(255, 255, 255, 0.1);
 }
 
-.footer-icon-link:hover{
+.footer-icon-link:hover, .footer-icon-link:focus{
     background-color: #188CE8;
 }
-
 
                  /* СТИЛИЗАЦИЯ СТРАНИЦЫ ПОРТФОЛИО */
 
@@ -557,10 +561,8 @@ fill: currentColor;
 /* Такой вопрос почему когда я вверху ставлю данные стили ниже которые, они применятются не к всем ссылкам, а когда разместил в подвале то все хорошо работает? */
 .link:hover,
 .link:focus {
-    color: #2196F3
+    color: #2196F3;
 }
-.item:hover{
-    color: #188CE8;
-    fill: #188CE8;
+
+    
   
-}
